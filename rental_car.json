@@ -1,0 +1,108 @@
+{
+	"Car": [
+		{
+			"make": "Audi",
+			"model": "A7",
+			"vin": "09AGHY64352JITEG98K",
+			"metadata": {
+				"Color": "Black",
+				"Notes": "Scratches on the front side of the car"
+			},
+			"perdayrent": {
+				"Price": 140,
+				"Discount": 15
+			},
+			"metrics": {
+				"yoymaintenancecost": 2190.76,
+				"depreciation": 2256.43,
+				"rentalcount": {
+					"lastweek": 4,
+					"yeartodate": 221
+				}
+			}
+		},
+		{
+			"make": "Tesla",
+			"model": "A7",
+			"vin": "09AGHY64352JITEG98K",
+			"metadata": {
+				"Color": "Blue",
+				"Notes": "This is brand new blue tesla"
+			},
+			"perdayrent": {
+				"Price": 145,
+				"Discount": 15
+			},
+			
+			"metrics": {
+				"yoymaintenancecost": 2190.76,
+				"depreciation": 2256.43,
+				"rentalcount": {
+					"lastweek": 4,
+					"yeartodate": 221
+				}
+			}
+		},
+		{
+			"make": "Audi",
+			"model": "A7",
+			"vin": "09AGHY64352JITEG98K",
+			"metadata": {
+				"Color": "Black",
+				"Notes": "Scratches on the front side of the car"
+			},
+			"perdayrent": {
+				"Price": 200,
+				"Discount": 65
+			},
+			"metrics": {
+				"yoymaintenancecost": 2190.76,
+				"depreciation": 2256.43,
+				"rentalcount": {
+					"lastweek": 4,
+					"yeartodate": 221
+				}
+			}
+		},{
+			"make": "ford",
+			"model": "A7",
+			"vin": "09AGHY64352JITEG98K",
+			"metadata": {
+				"Color": "red",
+				"Notes": "Scratches on the front side of the car"
+			},
+			"perdayrent": {
+				"Price": 390,
+				"Discount": 25
+			},
+			"metrics": {
+				"yoymaintenancecost": 2190.76,
+				"depreciation": 1256.43,
+				"rentalcount": {
+					"lastweek": 4,
+					"yeartodate": 221
+				}
+			}
+		},{
+			"make": "Tesla",
+			"model": "A5",
+			"vin": "09AGHY64352JITEG98K",
+			"metadata": {
+				"Color": "Blue",
+				"Notes": "This is blue tesla with low price"
+			},
+			"perdayrent": {
+				"Price": 110,
+				"Discount": 15
+			},
+			"metrics": {
+				"yoymaintenancecost": 2190.76,
+				"depreciation": 2256.43,
+				"rentalcount": {
+					"lastweek": 4,
+					"yeartodate": 221
+				}
+			}
+		}
+	]
+}
