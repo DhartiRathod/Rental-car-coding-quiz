@@ -1,0 +1,63 @@
+
+The below represents the server response JSON schema from a web service written for a car rental company. 
+This is usually a lot more elaborate and decomposed but for the sake of this exercise below is the single response.
+Below is the schema definition
+  "Car" : {
+     "make": <String>
+	  "model": <String>
+     "vin": <String>
+     "metadata" : {
+         "Color" : <String>
+         "Notes" : <String>
+         }
+     "perdayrent" : {
+        "Price" : <Float>
+         "Discount" : <Float>
+         }
+     "metrics" : {
+         "yoymaintenancecost" : <Float>
+         "depreciation": <Float>
+         "rentalcount" : {
+             "lastweek" : <Int>
+             "yeartodate" : <Int>
+             }
+         }
+    }
+    
+    The web server will return the response. You will always receive a list of cars from the server. 
+    
+    An example of the response is:
+     "Car" : {
+     "make": "Audi"
+	  "model": "A7"
+     "vin": "09AGHY64352JITEG98K"
+     "metadata" : {
+         "Color" : "Black"
+         "Notes" : "Scratches on the front side of the car"
+         }
+     "perdayrent" : {
+        "Price" : 140
+         "Discount" : 15
+         }
+     "metrics" : {
+         "yoymaintenancecost" : 2190.76
+         "depreciation": 2256.43
+         "rentalcount" : {
+             "lastweek" : 4
+             "yeartodate" : 221
+             }
+         }
+    }
+
+Create a Test project Maven or Gradle based with the standard coding practices, Publish to a public git repository and write some unit tests 
+    
+Please Model the request/ response Objects. If Object mapper / marshaller is required then please also comment appropriately
+
+
+    Question 1: Print all the blue Teslas received in the web service response. Also print the notes
+    Question 2: Return all cars which have the lowest per day rental cost for both cases:
+    				a. Price only
+    				b. Price after discounts
+    Question 3: Find the highest revenue generating car. year over year maintenance cost + depreciation is the total expense per car for the full year for the rental car company.
+    			The objective is to find those cars that produced the highest profit in the last year
+
